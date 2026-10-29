@@ -1,0 +1,33 @@
+# Node / Frontend dependencies
+node_modules/
+frontend/node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Python / Backend caches & virtual environments
+__pycache__/
+**/__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+backend/.pytest_cache/
+.venv/
+venv/
+env/
+ENV/
+
+# Environment files
+backend/.env
+frontend/.env
+
+# SQLite runtime temporary lock files (keep alumnia.db if you want pre-seeded demo data)
+*.db-shm
+*.db-wal
+*.log
+
+# Editor / System files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db

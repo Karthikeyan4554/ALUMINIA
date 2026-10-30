@@ -1835,10 +1835,10 @@ def seed_database(db: Session, force: bool = False):
 
         admin_profile = Profile(
             user_id=admin.id,
-            full_name="Dr. R. Meenakshi Sundaram",
+            full_name="Karthik Kavin",
             role="admin",
             department="Alumni Relations & Career Services",
-            headline="Dean of Career Development & Alumni Affairs",
+            headline="Platform Administrator | Alumni Relations & Career Services",
             bio="Leading university initiatives to empower graduating students, build global Tamil Nadu alumni networks, and foster industry collaborations.",
             location="Chennai, Tamil Nadu",
             years_of_experience=20,
